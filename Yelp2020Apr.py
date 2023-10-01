@@ -14,7 +14,7 @@ category_criteria = str(raw_input("Enter your the business category or categorie
 radius_search = int(raw_input("Enter the radius around your location in meters (Note: Maximum is 40,000m): "))
 
 #authorizes api key
-api_key = 'ptHy-cbk_S-NV_c1uU57IfiZGpkqrhYU50sHDPcaKD8CItrhP5tKhiJcmbYrlx03GDa_gttq9UJytu4Ux3nUMyfGBoXF5hGvQ1kXWUasvWojFm4DAwFpFXs61Dv9XXYx'
+api_key = {"INSERT API KEY HERE"}
 headers = {'Authorization': 'Bearer %s' % api_key}
 
 #endpoint
